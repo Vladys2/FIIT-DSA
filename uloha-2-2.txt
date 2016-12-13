@@ -1,0 +1,20 @@
+Jakubko sa hral s kockami. Na narodeniny dostal sadu kociek, ktorá obsahuje
+ (N <= 1 000 000) kociek, každá má na sebe napísané nejaké číslo od 1 do N^2. 
+ Čísla napísané na kockách sú rôzne.
+
+Kocky boli v balení rozhádzané a Jakubko by sa chcel naučiť, ktoré číslo 
+je väčšie od ktorého. Pomôžte Jakubkovi a usporiadajte kocky podľa čísel vzostupne.
+
+Vašou úlohou je implementovať funkciu v nasledovnom tvare:
+
+// Utriedi n cisel v poli a
+void utried(int *a, int n);
+
+Príklad postupnosti:
+N = 6
+10 9 8 1 2 3
+
+Utriedená postupnosť:
+1 2 3 8 9 10
+
+Poznámka: Algoritmus, ktorý čísla usporiada štandardným algoritmom v čase O(n log n) je pomalý. Riešenie musí bežať v čase O(n).
