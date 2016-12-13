@@ -1,0 +1,41 @@
+Jakubko stále niečo vymýšľa... rozhodol sa, že rozbehne podnikanie, a kedže samému 
+sa podniká ťažko, prehovoril svojho bračeka Jána Rastislava, že budú roznášať darčeky. 
+Podnikateľský plán je založený na nezabudnuteľnom zážitku pri preberaní darčeku. 
+Darčeky sa preto starostliovo zabalia a roznášajú po jednom. Pomôžte teraz bratom 
+naplánovať roznášanie darčekov tak, aby roznos bol čím skôr dokončený.
+
+Mesto, v ktorom darčeky roznášajú, je súvislý graf, vrcholy sú domy a hrany sú 
+ulice medzi domami, každá hrana má dĺžku koľko trvá prechod touto hranou ľubovoľným 
+smerom. Podnikatelia majú svoju centrálu vo vrchole 1 a roznášajú darčeky do ostatných 
+vrcholov. Najskôr vždy pobalia darčeky a potom ich začnú roznášať. Sú nato dvaja, 
+v každom okamihu môže mať každý z nich v rukách najviac jeden darček a je na ceste 
+z centrály do miesta určenia alebo sa vracia na centrálu (po ďalší darček). Prácu 
+si rozdelia tak, aby bola čo najskôr hotová; pracovné podmienky sú ťažké, roznášajú 
+bez nároku na oddych. Pomôžte bratom a zistite, za aký najkratší čas budú všetky 
+darčeky roznesené a obaja sa vrátia na centrálu k spoločnému obedu.
+
+Vstup: Štandardný vstup obsahuje zadaný graf -- počet domov (vrcholov grafu) N < 100 
+a počet ulíc (hrán grafu) M < 5000. Nasleduje M trojíc A B D, ktoré opisujú cestu medzi 
+vrcholmi A a B, pričom dĺžka koľko trvá prechod po hrane je D < 50 časových jednotiek. 
+Nasleduje počet darčekov na roznos K < 100 a K čísel domov do ktorých treba pojednom poroznášať darčeky.
+
+Výstup: Na štandardný výstup vypíšte najkratší čas za ktorý dokážu darčeky po jednom rozniesť a vrátiť sa naspäť do centrály.
+
+Ukážka vstupu:
+5 6
+2 1 5
+3 4 5
+5 3 10
+1 3 20
+3 2 5
+4 5 10
+5
+2
+3
+3
+4
+5
+
+Výstup pre ukážkový vstup:
+60
+Vysvetlenie: jeden bude roznesie do 2, 3 a 4, druhý roznesie do 3 a 5
