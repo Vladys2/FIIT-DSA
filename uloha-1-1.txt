@@ -1,0 +1,17 @@
+Napíšte program, ktorý posunie reťazec o N znakov doľava. Posunúť nejaký reťazec o jeden znak doľava znamená 
+prvý znak presunúť na koniec, pričom druhý a ostatné znaky sa posunú o jedno miesto doľava, čím na konci uvoľnia 
+miesto pre prvý znak.
+
+Štandardný vstup obsahuje niekoľko riadkov, na každom z nich je uvedený reťazec (najviac 1000 znakov) 
+a prirodzené číslo N (najviac sto miliárd). Pre každý riadok na vstupe vypíšte na štandardný výstup reťazec
+posunutý o N znakov doľava.
+
+Poznámka: Vaše riešenie musí byť dostatočne efektívne, aby zbehlo v časovom limite.
+
+Ukážka vstupu:
+abeceda 3
+aaaaabaaa 2
+
+Výstup pre ukážkový vstup:
+cedaabe
+aaabaaaaa
