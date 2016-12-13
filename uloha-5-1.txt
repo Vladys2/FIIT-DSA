@@ -1,0 +1,17 @@
+Dané dve množiny S a T prirodzených čísel, ich prvky sú s1, s2, ..., sN, a t1, t2, ..., tM. 
+Zistite, či je S podmnožinou T, teda, či každý prvok množiny S je aj prvkom množiny T. 
+Riešenie musí pracovať v optimálnej očakávanej časovej zložitosti O(N+M).
+
+Naprogramujte funkciu v nasledovnom tvare:
+
+// vrati 1 ak 's' je podmnozina 't', inak vrati 0.
+int is_subset(int s[], int n, int t[], int m)
+{
+  // ...
+}
+
+Návod: Použite hashovaciu tabuľku.
+
+Do tabuľky najskôr vložte prvky množiny T.
+Následne, v tabuľke vyhľadajte prvky množiny S.
+Poznámka: Všetky potrebné operácie by ste mali implementovať vlastnými silami. Pomalšie ako optimálne lineárne riešenie nesplní časový limit v testovači.
