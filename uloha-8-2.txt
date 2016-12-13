@@ -1,0 +1,33 @@
+Jakubko prechádza cez les trasou, ktorú ste mu vyznačili ... lenže v húštinách sa niečo hýbe... 
+Jakubko včera vynašiel prístroj na extrakciu bubliniek z hydrofóbnych roztokov a má preto 
+dôvodné podozrenie, že ho prišli navštíviť kamaráti z inej galaxie, obáva sa únosu. Pomôžte 
+mu strategicky analyzovať les, a objaviť v ňom kritické body, cez ktoré musí nutne prejsť bez 
+ohľadu na trasu prechodu, ktorú si zvolí. Na týchto miestach chce byť Jakubko obzvlášť obozretný. 
+Tmavý les je tvaru dvojrozmernej mriežky, Jakubko vstúpil do lesa vľavo hore, a potrebuje sa 
+dostať do východu vpravo dole. Iné východy z lesa nie sú, v lese sa pohybujú mimozemšťania, 
+ktorí sa pokúšajú Jakubka kontaktovať, on nemá záujem o takéto sociálne kontakty.
+
+Pomôžte Jakubkovi nájsť všetky kritické políčka (lesné cestičky) cez ktoré musí nutne 
+prejsť bez ohľadu na zvolenú trasu.
+
+Vstup: Štandardný vstup obsahuje mapu lesa -- dvojrozmernú maticu znakov bodka (.) 
+a mriežka (#). Bodka predstavuje lesnú cestičku. Mriežka predstavuje húštinu, 
+cez ktorú sa Jakubko nemôže dostať. Mapa lesa môže byť veľká najviac 1000 riadkov a 1000 stĺpcov.
+
+Výstup: Na štandardný výstup vypíšte mapu lesa s vyznačenými kritickými miestami -- 
+políčkami cez ktoré musí nutne prejsť bez ohľadu na zvolenú trasu prechodu z ľavého 
+horného vchodu do pravého dolného východu. Kritické miesta označte výkričníkom (znak !).
+
+Ukážka vstupu:
+#.###############
+#...#...........#
+#.###.#####.#.#.#
+#...........#...#
+###############.#
+
+Výstup pre ukážkový vstup:
+#!###############
+#!..#......!!!..#
+#!###.#####.#.#.#
+#!!!!!......#..!#
+###############!#
