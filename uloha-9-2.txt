@@ -1,0 +1,40 @@
+Jakubko si doprial dovolenku v takej zvláštnej krajine. Rozhliadol sa doľava, rozhliadol 
+sa doprava, a čo nevidí? Nevidí nič, nebol v nej žiaden kopec, všetko samá rovina, ale 
+zato veľa krásny miest. :) Komplikovaná politická situácia ešte neumožnila dostavať 
+v krajine cestnú sieť do všetkých týchto miest a preto vláda rozmýšľa ako by 
+najefektívnejšie dostava existujúci cestnú sieť tak, aby sa z každého mesta dalo dostať 
+do každého ďalšieho po ceste. Ide o strategický záujem a s výkupom pozemkov nebude 
+najmenší problém. Keďže je krajina úplne plochá stavať budú len priame cesty. Jakubko 
+teraz húta nad mapou tejto krajiny a rozmýšľa koľko kilometrov ciest budú musieť 
+v krajine postaviť.
+
+Pomôžte Jakubkovi a pre mapu krajiny -- súradnice miest a zoznam existujúcich 
+cestných spojení -- zistite najmenšiu dĺžku ciest, ktoré musia dostavať, aby 
+sa medzi mestami dalo pohybovať po cestách.
+
+Vstup: Štandardný vstup obsahuje opis situácie v krajine: číslo N < 1000 (počet miest) 
+a N dvojíc celých čísel x-ová a y-ová súradnica mesta, číslo M < 5000 (počet existujúcich ciest)
+a M dvojíc čísel miest, ktoré spája cesta.
+
+Výstup: Na štandardný výstup vypíšte dĺžku ciest, ktoré musia ešte postaviť, 
+aby prepojili všetky mestá, zaokrúhlenú na tri desatinné miesta.
+
+Ukážka vstupu:
+9
+1 5
+0 0
+3 2
+4 5
+5 1
+0 4
+5 2
+1 2
+5 3
+3
+1 3
+9 7
+1 2
+2 3
+
+Výstup pre ukážkový vstup:
+8.650
