@@ -1,0 +1,30 @@
+Jakubko na pracovnom vyučovaní lepil papierové štvorčeky rôznych farieb na výkres 
+rovnobežne s jeho okrajom. Pestré farby vytvárali rozličné obrazce a vzájomné 
+prekrývanie niektorých štvorčekov spôsobilo, že z toho nakoniec vzniklo naozaj 
+umelecké dielo! Jakubka však nakoniec zaujímalo čosi celkom iné -- celková plocha 
+výkresu, ktorú pokryli štvorčeky.
+
+Pomôžte Jakubkovi a pre množinu štvorčekov na vstupe určite obsah prekrytej časti výkresu.
+
+Vstup: Štandardný vstup obsahuje zasebou zápis niekoľkých pracovných vyučovaní. 
+Jedno pracovné vyučovanie je reprezentované množinou štvorčekov, ktorú na výkres
+Jakubko nalepil. Na prvom riadku je pre jedno vyučovanie celé číslo N (do 1000) 
+počet štvorčekov, a nasleduje N trojíc desatinných čísel: x-ová a y-ová súradnica 
+ťažiska štvorčeka a tzv. polomer štvorčeka (polovica dĺžky strany) -- štvorček 
+je potom na výkrese na súradniciach x-r,y-r až x+r,y+r.
+
+Výstup: Na štandardný výstup vypíšte pre každé pracovné vyučovanie jeden riadok 
+s jedným číslom: obsahom prekrytej oblasti, zaokrúhleným na tri desatinné miesta.
+
+Ukážka vstupu:
+3
+4.0 4.0 3.0
+5.0 6.0 3.0
+5.5 4.5 1.0
+2
+3.0 3.0 3.0
+1.5 1.5 1.0
+
+Výstup pre ukážkový vstup:
+52.000
+36.000
