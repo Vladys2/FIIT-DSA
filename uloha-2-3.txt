@@ -1,0 +1,32 @@
+Jakubko sa hral s číslami. Na papierik si napísal do radu rôzne čísla, a všimol si, že niekedy 
+je väčšie číslo napísane v rade skôr ako nejaké menšie číslo. Zaujíma ho, koľko je takých neusporiadaných dvojíc.
+
+Vašou úlohou je implementovať funkciu v nasledovnom tvare:
+
+// vrati pocet neusporiadaných dvojic
+long pocet_neusporiadanych_dvojic(int *a, int n);
+Poznámka: Postupnosť čísel môžete vo funkcii preusporiadať.
+
+Príklad postupnosti:
+N = 6 (počet čísel)
+3 2 1 6 5 4
+
+Počet neusporiadaných dvojíc: 6
+[sú to dvojice (3,2), (3,1), (2,1), (6,5), (6,4), (5,4)]
+
+Návod: Kvadratický algoritmus, ktorý skontroluje každú dvojicu je pomalý. 
+Algoritmus v zložitosti O(n log n) dosiahnete využitím modifikovaného MergeSort-u, 
+tak že vo fáze spájania si budete počítať neusporiadané dvojice medzi spájanými 
+dvoma postupnosti efektívnejšie ako po jednom.
+
+Algoritmus je založený na rekurzívnom rozdeľovaní a spájaní.
+Počet neusporiadaných dvojíc si prenášajte v návratových hodnotách funkcií.
+Fáza rozdeľovania je rovnaká ako v algoritme MergeSort - rozdelíme na ľavú a 
+pravú polovicu a v nich problém rekurzívne vypočítame (spolu s usporiadaním prvkov)
+Vo fáze spájania si okrem usporiadania prvkov počítame počet neusporiadaných 
+dvojíc medzi spájanými postupnosťami.
+Pri spájaní vyberáme (podľa veľkosti) prvky z prvej alebo druhej postupnosti. 
+Keď pri spájaní vyberieme prvok X z druhej postupnosti, do celkového počtu 
+neusporiadaných dvojíc započítame počet zostávajúcich prvkov v prvej postupnosti 
+(z ktorými všetkými X tvorí neusporiadanú dvojicu, a teda počítame tieto dvojice 
+rýchlejšie ako po jednom).
