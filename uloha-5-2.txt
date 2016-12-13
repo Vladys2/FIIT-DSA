@@ -1,0 +1,25 @@
+Určite ste to už zažili... večer, diskotéka, pri vchode sympatickí vyhadzovači 
+nekompromisne odmietajú vstup neplnoletým mládežníkom, ktorí sa už nedočkavo 
+tlačia na parket. Mladí ale vedia byť vynaliezaví, zaobstarali si občiansky 
+preukaz so “správnym” dátumom narodenia a po prekonaní poslednej prekážky si 
+ho poza chrbát posunú spať a na vstupe je opäť použitý ďalším nedočkavcom. 
+Takto to ale nemôže ísť ďalej!! Pomôžte ochrániť zdravý morálny vývin našej 
+mládeže a pomôžte vyhadzovačom identifikovať preukazy, ktoré boli na vstup už 
+raz použité.
+
+Na vstupe je daná postupnosť čísel občianskych preukazov, v poradí ako sa 
+nimi návštevníci preukazujú. Vašou úlohou je zistiť počet, koľko z nich sa 
+pokúšali použiť opakovane. Číslo OP je reťazec čísel a písmen, môžu byť rôzne 
+dlhé. Riešenie musí pracovať v optimálnej očakávanej časovej zložitosti O(N), 
+kde N je počet čísel občianskych preukazov na vstupe.
+
+Naprogramujte funkciu v nasledovnom tvare:
+
+// spracuje cisla OP: vrati pocet najdenych duplikatov.
+int vyhadzovac(char *a[], int n)
+{
+  // ...
+}
+
+Poznámka: Všetky potrebné operácie by ste mali implementovať vlastnými silami. 
+Pomalšie ako optimálne lineárne riešenie nesplní časový limit v testovači.
