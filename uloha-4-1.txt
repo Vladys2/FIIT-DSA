@@ -1,0 +1,23 @@
+Jakubko začal podnikať. Priebežne mu chodia objednávky, ale nestíha všetky vybavovať, 
+tak si musí vybrať, ktorých zákazníkov obslúži. Jednotlivé objednávky si ohodnotí 
+hodnotou, akú majú pre jeho podnikanie. Z času na čas, keď má čas, vybaví jednu objednávku, 
+v tomto momente sa pozrie do svojho zoznamu a vyberie objednávky s najvyššiu hodnotu 
+a spracuje ju. Pomôžte Jakubkovi a spravte mu program, ktorý mu pomôže operácie vloženia 
+a výberu objednávky s najvyššou prioritou rýchlo vykonávať.
+
+Naprogramujte funkcie v nasledovnom tvare:
+
+// vlozi meno a hodnotu do prioritnej fronty
+void vloz(char *meno, int hodnota)
+{
+	// ...
+}
+
+/// vrati meno, ktore je v prioritnej fronte s najvyssou hodnotou a odstrani ho z prioritnej fronty
+char *vyber_najvyssie()
+{
+	// ...
+}
+
+Prioritnú frontu implementujte binárnou haldou. Použite globálnu premennú. Môžete predpokladať, 
+že Jakubko bude mať v ľubovoľnom okamihu najviac 100 000 čakajúcich objednávok.
