@@ -1,0 +1,28 @@
+Jakubko sa ocitol v tmavom lese. Obzerá sa naokolo, vidí samé húštiny a tmavé 
+chodbičky -- lesné cestičky. Pomôžte mu nájsť cestu von. Tmavý les je tvaru 
+dvojrozmernej mriežky znakov, Jakubko vstúpil do lesa vľavo hore, a potrebuje 
+sa dostať do východu vpravo dole. Iné východy z lesa nie sú... zazdalo sa mu, 
+že sa v tom lese niečo hýbe...
+
+Pomôžte Jakubkovi nájsť cestu z lesa von.
+
+Vstup: Štandardný vstup obsahuje mapu lesa -- dvojrozmernú maticu znakov bodka (.) 
+a mriežka (#). Bodka predstavuje lesnú cestičku. Mriežka predstavuje húštinu, 
+cez ktorú sa Jakubko nemôže dostať. Mapa lesa môže byť veľká najviac 1000 riadkov a 1000 stĺpcov.
+
+Výstup: Na štandardný výstup vypíšte mapu lesa s vyznačenou trasou prechodu z 
+ľavého horného vchodu do pravého dolného východu. Trasu vyznačte hviezdičkami (znak *).
+
+Ukážka vstupu:
+#.###############
+#...#...........#
+#.###.#####.#.###
+#...........#...#
+###############.#
+
+Výstup pre ukážkový vstup:
+#*###############
+#*..#*********..#
+#*###*#####.#*###
+#*****......#***#
+###############*#
