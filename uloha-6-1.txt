@@ -1,0 +1,38 @@
+Jakubko s Helenkou stavali veže z drevených kociek. Kocky stavali na dlhom chodníku, 
+ktorý si možno predstaviť ako jednorozmerné pole. Vždy na i-tu pozíciu Helenka 
+doložila niekoľko kociek a zvýšila tým vežu z kociek, ktorá na i-tom mieste stála. 
+Na začiatok neboli na chodníku iné kocky. Jakubko mal inú dôležitú úlohu: vždy keď 
+prišiel nejaký kamarát a zaujímalo ho koľko kociek je vo vežiach, ktoré stoja medzi 
+dvoma význačnými bodmi (resp. od i-teho miesta ďalej dĺžky d), tak to musel rýchlo 
+spočítať. Občas sa stalo, že nejaké zvieratko alebo neposlušný vetrík kocky z 
+nejakého miesta aj zhodilo. Vašou úlohou je napísať algoritmus, ktorý by Jakubkovi 
+pomohol zvládať nával zvedavých detí a rýchlo odpovedal na ich požiadavky.
+
+Štandardný vstup obsahuje niekoľko riadkov, na každom z nich je uvedená operácia:
+
+inc i k -- zvýšenie veže na i-tom mieste o k kociek (Helenka doložila kocky)
+dec i k -- zníženie veže na i-tom mieste o k kociek (vetrík sfúkol kocky)
+get i k -- otázka zvedavého kamaráta na počet kociek od i-teho miesta ďalej k kociek (až po miesto i+k vrátane)
+
+Hodnoty pozícií na vstupe budú od 0 do 100 000. Počet kociek je možné reprezentovať celým číslom int. Na štandardný výstup pre každú operáciu get vypíšte jedno číslo -- koľko kociek je v požadovanom intervale na chodníku.
+Poznámka: Vaše riešenie musí byť dostatočne efektívne, aby zbehlo v časovom limite.
+
+Ukážka vstupu:
+inc 10 5
+inc 15 3
+inc 8 7
+get 0 20
+get 10 5
+get 11 5
+get 10 4
+dec 15 2
+get 6 10
+get 6 5
+
+Výstup pre ukážkový vstup:
+15
+8
+3
+5
+13
+12
