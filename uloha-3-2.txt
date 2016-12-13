@@ -1,0 +1,21 @@
+Jakubko sa nudí na hodine programovania a tak si začal na papier čmárať binárne 
+vyhľadávacie stromy. Zapačíli sa mu a chcel by zistiť koľko rôznych binárnych 
+vyhľadávacích stromov existuje pre daný počet prvkov. Napíšte program, ktorý pre 
+daný počet prvkov N zistí, koľko je rôznych binárnych vyhľadávacích stromov, 
+ktoré možno z N rôznych prvkov zostrojiť.
+
+Špecifikácia vstupu: Na vstupe je niekoľko čísel veľkosťou do 32. 
+Čísla sú oddelené medzerou alebo novým riadkom.
+
+Špecifikácia výstupu: Pre každé číslo i na vstupe vypíšte jedno číslo -- 
+počet rôznych binárnych vyhľadávacích stromov, ktoré možno zostrojiť z i rôznych prvkov.
+
+Ukážka vstupu:
+1
+2
+3
+
+Výstup pre ukážkový vstup:
+1
+2
+5
